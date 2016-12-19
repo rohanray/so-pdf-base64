@@ -50,4 +50,9 @@ let options = {
       })
 ```
 
+pdfViewer is an iframe as can be seen in `/index.html` This initially loads the pdf viewer
+
+### Pdf Viewer
+This is currently using a full blown viewer which is present at `express-pdfjs/pdfViewer/web` 
+
 Please refer to https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions for further details.
