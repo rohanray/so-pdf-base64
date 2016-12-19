@@ -50,9 +50,10 @@ let options = {
       })
 ```
 
-pdfViewer is an iframe as can be seen in `/index.html` This initially loads the pdf viewer
+`pdfViewer` from above snippet is an iframe as can be seen in `/index.html` This initially loads the pdf viewer as below:
+`<iframe id="pdfViewer" src="http://localhost:3000/express-pdfjs/pdfViewer/web/viewer.html" height="1600" width="850" />`
 
 ### Pdf Viewer
-This is currently using a full blown viewer which is present at `express-pdfjs/pdfViewer/web` 
+This is currently using a full blown viewer which is present at `express-pdfjs/pdfViewer/web`. The viewer can be customized by modifying the CSS and HTML file present inside `express-pdfjs/pdfViewer/web`.
 
 Please refer to https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions for further details.
